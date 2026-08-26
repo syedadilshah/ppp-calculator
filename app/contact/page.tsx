@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/content/Breadcrumbs";
+import { pageMetadata } from "@/lib/seo/metadata";
+
+export const metadata: Metadata = pageMetadata({ title: "Contact PPP Calculator", description: "Contact PPP Calculator about data corrections, methodology questions or website feedback.", path: "/contact/" });
+export default function ContactPage() { const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL; return <><section className="page-hero"><div className="container"><Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Contact" }]} /><h1>Contact</h1><p>Data correction, methodology or website feedback.</p></div></section><section className="content-section"><article className="container reading prose"><h2>Get in Touch</h2>{email ? <p>Email: <a href={`mailto:${email}`}>{email}</a></p> : <p>A public contact email has not yet been configured. Set <code>NEXT_PUBLIC_CONTACT_EMAIL</code> before production launch and it will appear here automatically.</p>}<h2>Data Corrections</h2><p>When reporting a possible data issue, include the two countries, the observation year shown by the calculator and the page where you saw the result. Do not send private salary or financial information.</p></article></section></>; }

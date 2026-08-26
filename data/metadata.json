@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-08-26T00:00:00.000Z",
+  "source": "World Bank World Development Indicators / International Comparison Program",
+  "sourceUrl": "https://api.worldbank.org/v2/",
+  "license": "CC BY 4.0",
+  "indicators": {
+    "private": "PA.NUS.PRVT.PP",
+    "gdp": "PA.NUS.PPP"
+  },
+  "range": { "start": 2015, "end": 2026 },
+  "supportedCountries": 10,
+  "snapshotNote": "Checked-in starter snapshot. Run npm run data:update on a network-enabled deployment environment to refresh and expand the validated World Bank dataset."
+}

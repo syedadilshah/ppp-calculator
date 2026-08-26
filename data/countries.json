@@ -1,0 +1,12 @@
+[
+  {"code":"US","iso3":"USA","name":"United States","currencyCode":"USD","currencySymbol":"$","locale":"en-US","flag":"🇺🇸"},
+  {"code":"IN","iso3":"IND","name":"India","currencyCode":"INR","currencySymbol":"₹","locale":"en-IN","flag":"🇮🇳"},
+  {"code":"AE","iso3":"ARE","name":"United Arab Emirates","currencyCode":"AED","currencySymbol":"AED","locale":"en-AE","flag":"🇦🇪"},
+  {"code":"DE","iso3":"DEU","name":"Germany","currencyCode":"EUR","currencySymbol":"€","locale":"de-DE","flag":"🇩🇪"},
+  {"code":"FR","iso3":"FRA","name":"France","currencyCode":"EUR","currencySymbol":"€","locale":"fr-FR","flag":"🇫🇷"},
+  {"code":"IT","iso3":"ITA","name":"Italy","currencyCode":"EUR","currencySymbol":"€","locale":"it-IT","flag":"🇮🇹"},
+  {"code":"ES","iso3":"ESP","name":"Spain","currencyCode":"EUR","currencySymbol":"€","locale":"es-ES","flag":"🇪🇸"},
+  {"code":"NL","iso3":"NLD","name":"Netherlands","currencyCode":"EUR","currencySymbol":"€","locale":"nl-NL","flag":"🇳🇱"},
+  {"code":"GB","iso3":"GBR","name":"United Kingdom","currencyCode":"GBP","currencySymbol":"£","locale":"en-GB","flag":"🇬🇧"},
+  {"code":"PK","iso3":"PAK","name":"Pakistan","currencyCode":"PKR","currencySymbol":"Rs","locale":"en-PK","flag":"🇵🇰"}
+]
